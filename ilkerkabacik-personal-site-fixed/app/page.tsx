@@ -38,11 +38,11 @@ export default function Home() {
             transition={{ duration: 0.55, delay: 0.05 }}
             className="mt-4 text-lg text-muted-foreground max-w-2xl"
           >
-            Global ölçekte finansal teknoloji, kripto ve AI tabanlı ürünlerde strateji & inşa.
+            Global ölçekte finansal teknoloji, kripto ve AI tabanlı ürünlerde strateji & inşası
           </motion.p>
           <div className="mt-8 flex gap-3">
             <Button asChild size="lg" className="gap-2">
-              <a href="mailto:hello@ilkerkabacik.com">
+              <a href="mailto:ilkerkabacik@defipayusdt.io">
                 İletişime Geç <ArrowRight className="w-4 h-4" />
               </a>
             </Button>
@@ -56,9 +56,9 @@ export default function Home() {
       {/* SERVICES */}
       <section className="border-t">
         <div className="container py-14 md:py-20">
-          <h2 className="text-2xl md:text-3xl font-bold">Ne Yapıyorum?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold">Neler Inşa Ediyoruz?</h2>
           <p className="text-muted-foreground mt-2 mb-8 max-w-2xl">
-            Ürün stratejisi, teknik mimari ve operasyon akışlarını tek elde toplayıp sonuç odaklı ilerlerim.
+            Blockchain, Fintech Çözümleri, Global tedarik, Ürünlere özel stratejiler, teknik mimari ve operasyon akışlarını tek elde toplayıp sonuç odaklı ilerleriz.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="container py-14 md:py-20">
           <h2 className="text-2xl md:text-3xl font-bold">Global İş Ortaklarımız</h2>
           <p className="text-muted-foreground mt-2 mb-8 max-w-2xl">
-            Seçtiğimiz çözüm ortaklarıyla, yüksek ölçekli ve güvenli projeler geliştiriyoruz.
+            Seçtiğimiz çözüm ortaklarıyla, Globalde yüksek ölçekli ve güvenli projeler geliştiriyor ve uyguluyoruz.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
             {partners.map(p => (
@@ -99,7 +99,7 @@ export default function Home() {
             <img src="/logo.svg" alt="İK" className="h-5" />
             <span>© {new Date().getFullYear()} İlker Kabacık</span>
           </div>
-          <a href="mailto:hello@ilkerkabacik.com" className="underline">hello@ilkerkabacik.com</a>
+          <a href="mailto:ilkerkabacik@defipayusdt.io" className="underline">hello@ilkerkabacik.com</a>
         </div>
       </footer>
     </main>
