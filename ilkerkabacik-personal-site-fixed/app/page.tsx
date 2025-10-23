@@ -99,7 +99,7 @@ export default function Home() {
             <img src="/logo.svg" alt="İK" className="h-5" />
             <span>© {new Date().getFullYear()} İlker Kabacık</span>
           </div>
-          <a href="mailto:ilkerkabacik@defipayusdt.io" className="underline">hello@ilkerkabacik.com</a>
+          <a href="mailto:ilkerkabacik@defipayusdt.io" className="underline">ilkerkabacik@defipayusdt.io</a>
         </div>
       </footer>
     </main>
